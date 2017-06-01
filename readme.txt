@@ -21,7 +21,7 @@ Provides a taxonomy for describing departments. In addition, if the [UCF College
 2. Activate the plugin through the "Plugins" screen in WordPress
 
 = WP CLI Installation =
-1. `$ wp plugin install --activate https://github.com/UCF/UCF-Tuition-Fees-Plugin/archive/master.zip`.  See [WP-CLI Docs](http://wp-cli.org/commands/plugin/install/) for more command options.
+1. `$ wp plugin install --activate https://github.com/UCF/UCF-Departments-Tax-Plugin/archive/master.zip`.  See [WP-CLI Docs](http://wp-cli.org/commands/plugin/install/) for more command options.
 
 
 == Changelog ==
