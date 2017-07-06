@@ -16,7 +16,7 @@ if ( ! class_exists( 'UCF_Departments_Common' ) ) {
 		public static function get_website_link( $dept ) {
 			if ( !$dept->name || !$dept->term_id ) { return false; }
 
-			$name_or_alias = $self::get_name_or_alias( $dept );
+			$name_or_alias = self::get_name_or_alias( $dept );
 
 			ob_start();
 		?>
