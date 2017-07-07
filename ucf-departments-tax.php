@@ -13,6 +13,7 @@ define( 'UCF_DEPARTMENTS__FILE', __FILE__ );
 
 include_once 'includes/ucf-departments-taxonomy.php';
 include_once 'includes/ucf-departments-fields.php';
+include_once 'includes/ucf-departments-common.php';
 
 if ( ! function_exists( 'ucf_departments_activation' ) ) {
 	function ucf_departments_activation() {
