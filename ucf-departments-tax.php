@@ -13,10 +13,12 @@ define( 'UCF_DEPARTMENTS__FILE', __FILE__ );
 
 include_once 'includes/ucf-departments-taxonomy.php';
 include_once 'includes/ucf-departments-fields.php';
+include_once 'includes/ucf-departments-common.php';
 
 if ( ! function_exists( 'ucf_departments_activation' ) ) {
 	function ucf_departments_activation() {
-		flush_rewrite_rules( true );
+		UCF_Departments_Taxonomy::register();
+		flush_rewrite_rules();
 	}
 
 	register_activation_hook( 'ucf_departments_activation', UCF_DEPARTMENTS__FILE );
@@ -24,7 +26,7 @@ if ( ! function_exists( 'ucf_departments_activation' ) ) {
 
 if ( ! function_exists( 'ucf_departments_deactivation' ) ) {
 	function ucf_departments_deactivation() {
-		flush_rewrite_rules( true );
+		flush_rewrite_rules();
 	}
 
 	register_deactivation_hook( 'ucf_departments_deactivation', UCF_DEPARTMENTS__FILE );

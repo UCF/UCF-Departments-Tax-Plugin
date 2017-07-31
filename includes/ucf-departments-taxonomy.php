@@ -19,7 +19,7 @@ if ( ! class_exists( 'UCF_Departments_Taxonomy' ) ) {
 				)
 			);
 
-			$post_types = post_type_exists( 'degree' ) ? array( 'degree' ) : null;
+			$post_types = array( 'degree', 'person' );
 
 			register_taxonomy( 'departments', $post_types, self::args( $labels ) );
 		}
