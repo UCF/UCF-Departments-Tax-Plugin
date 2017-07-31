@@ -3,7 +3,7 @@ Contributors: ucfwebcom
 Tags: ucf, taxonomy, departments
 Requires at least: 4.7.5
 Tested up to: 4.7.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -12,6 +12,8 @@ Provides a taxonomy for describing departments
 == Description ==
 
 Provides a taxonomy for describing departments. In addition, if the [UCF Colleges Taxonomy](https://github.com/UCF/UCF-Colleges-Tax-Plugin) plugin is installed, you can map departments to colleges.
+
+The departments taxonomy is applied to the 'degree' and 'person' post types by default.
 
 
 == Installation ==
@@ -25,6 +27,14 @@ Provides a taxonomy for describing departments. In addition, if the [UCF College
 
 
 == Changelog ==
+
+= 1.0.1 =
+Bug Fixes:
+* Fixed rewrite rule flushing on plugin activation and deactivation.
+* Removed `post_type_exists()` check that returned false positives in `UCF_Departments_Taxonomy::register()`.
+
+Enhancements:
+* Added helper functions `UCF_Departments_Common::get_website_link()` and `UCF_Departments_Common::get_name_or_alias()`.
 
 = 1.0.0 =
 * Initial release

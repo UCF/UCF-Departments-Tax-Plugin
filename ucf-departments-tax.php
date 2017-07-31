@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: UCF Departments Taxonomy
-Version: 1.0.0
+Version: 1.0.1
 Author: UCF Web Communications
 Description: Provides a "Departments" taxonomy.
 */
