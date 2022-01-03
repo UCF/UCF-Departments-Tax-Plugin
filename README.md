@@ -21,6 +21,10 @@ The departments taxonomy is applied to the 'degree' and 'person' post types by d
 
 ## Changelog ##
 
+### 1.1.0 ###
+Enhancements:
+* Added REST endpoint support for departments.
+
 ### 1.0.1 ###
 Bug Fixes:
 * Fixed rewrite rule flushing on plugin activation and deactivation.
