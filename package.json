@@ -2,7 +2,7 @@
   "name": "ucf-departments-tax-plugin",
   "private": true,
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-readme-to-markdown": "^0.2.1"
   }
 }
