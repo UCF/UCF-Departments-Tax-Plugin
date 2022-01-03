@@ -74,7 +74,8 @@ if ( ! class_exists( 'UCF_Departments_Taxonomy' ) ) {
 					'slug'         => $slug,
 					'hierarchical' => true,
 					'ep_mask'      => EP_PERMALINK | EP_PAGES
-				)
+				),
+				'show_in_rest'               => true
 			);
 
 			$args = apply_filters( 'ucf_departments_args', $args );
