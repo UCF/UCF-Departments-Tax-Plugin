@@ -2,8 +2,8 @@
 Contributors: ucfwebcom
 Tags: ucf, taxonomy, departments
 Requires at least: 4.7.5
-Tested up to: 5.3
-Stable tag: 1.1.0
+Tested up to: 6.1
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -27,6 +27,10 @@ The departments taxonomy is applied to the 'degree' and 'person' post types by d
 
 
 == Changelog ==
+
+= 1.1.1 =
+Enhancements:
+* Added composer file.
 
 = 1.1.0 =
 Enhancements:

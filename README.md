@@ -21,6 +21,10 @@ The departments taxonomy is applied to the 'degree' and 'person' post types by d
 
 ## Changelog ##
 
+### 1.1.1 ###
+Enhancements:
+* Added composer file.
+
 ### 1.1.0 ###
 Enhancements:
 * Added REST endpoint support for departments.

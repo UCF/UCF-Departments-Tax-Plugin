@@ -1,0 +1,8 @@
+{
+    "name": "ucf/ucf-departments-tax-plugin",
+    "description": "Provides a taxonomy for describing departments",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
